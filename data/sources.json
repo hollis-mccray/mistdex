@@ -1,17 +1,38 @@
 {
     "games": [
-      {
-        "name": ":Otherscape",
-        "sources": [
-          {
-            "source": "Metro:Otherscape",
-            "active": "true"
-          },
-          {
-            "source": "Tokyo:Otherscape",
-            "active": "true"
-          }
-        ]
-      }
+        {
+            "name": "City of Mist",
+            "sources": [
+                {
+                    "name": "MC Toolkit",
+                    "active": true
+                },
+                {
+                    "name": "Shadows & Showdowns",
+                    "active": true
+                },
+                {
+                    "name": "Nights of Payne Town",
+                    "active": true
+                },
+                {
+                    "name": "Local Legends",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": ":Otherscape",
+            "sources": [
+                {
+                    "name": "Metro:Otherscape",
+                    "active": true
+                },
+                {
+                    "name": "Tokyo:Otherscape",
+                    "active": true
+                }
+            ]
+        }
     ]
-  }
+}

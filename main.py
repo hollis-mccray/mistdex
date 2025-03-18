@@ -1,3 +1,5 @@
+from sources import options
+
 def menu():
     options = {
         "C": "Add Challenge",
@@ -9,15 +11,16 @@ def menu():
     choice = '?'
     while choice not in options:
         print("Mist Games Index Manager")
-        print("")
+        print()
         for key, value in options.items():
-            print(f"{key}: {value}")
-        print("")
+            print(f"{key}. {value}")
+        print()
         choice = input("Select an Option: ").upper()
     return choice
 
 
 def main():
+    src_list = options()
     option = menu()
     while option != "X":
         match option:
@@ -28,9 +31,7 @@ def main():
             case "R":
                 print("\nGenerating Reports...\n")
             case "S":
-                print("\nSetting Settings...\nc")
+                src_list.menu()
         option = menu()
-    print("This database will self-destruct in 3... 2... 1... Um, what was I counting for?")
-
 
 main()

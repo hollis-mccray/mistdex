@@ -1,0 +1,17 @@
+{
+    "games": [
+      {
+        "name": ":Otherscape",
+        "sources": [
+          {
+            "source": "Metro:Otherscape",
+            "active": "true"
+          },
+          {
+            "source": "Tokyo:Otherscape",
+            "active": "true"
+          }
+        ]
+      }
+    ]
+  }
